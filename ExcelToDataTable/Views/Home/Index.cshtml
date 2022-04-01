@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-controller="Home" asp-action="ImportExcel" method="post" enctype="multipart/form-data">
+    <table class="table">
+        <tr>
+            <td><input type="file" id="postedFile" name="postedFile" /></td>
+            <td><input type="submit" id="cmdPostedFile" class="btn btn-sm btn-warning" value="Import Questions From Excel"/></td>
+        </tr>
+    </table>
+</form>
+
+<script>
+
+</script>
